@@ -17,7 +17,7 @@ func getVideoInfo(w http.ResponseWriter, req *http.Request) {
 	tokenvalid := checktokenvalidiy(token)
 	fmt.Fprint(w, tokenvalid)
 	if tokenvalid == "valid"{
-		fmt.Fprint(w, "good")
+		fmt.Fprint(w, "good, with video id" + videoid)
 	}
 }
 func checktokenvalidiy(token string)string {

@@ -20,8 +20,5 @@
     "permissions": [
       "activeTab",
       "http://localhost/*"
-    ],
-    "background": {
-      "scripts": ["background.js"]
-    }
+    ]
   }
